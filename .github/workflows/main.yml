@@ -6,11 +6,11 @@ jobs:
  build:
    runs-on: ubuntu-latest
 
-   steps: 
+   steps:
     - uses: actions/checkout@v2
 
     - name: Run a one-line script
-    run: echo "Hello, CI/CD!"
+      run: echo "Hello, CI/CD!"
 
      #- name: Simulate an error
      #  run: echo "About to fail" ; exit 1
